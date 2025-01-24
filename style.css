@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: blue;
+  color: white;
+}
+.icon-button {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  background-color: white;
+}
+.phone-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icon-mail {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mail {
+  background-color: white;
+}
+.contact-information {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20 px;
+  font-weight: bold;
+}
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #007bff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.bottom-text {
+  display: flex;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.information-side {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.text-information {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+h6 {
+  margin-top: 20;
+}
+.input-side {
+  width: 50%;
+}
+
+.map {
+  width: 400px;
+}
